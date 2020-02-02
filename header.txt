@@ -1,0 +1,26 @@
+
+Response headers :
+
+Expires : The date this postman expires
+Date : Date when message was sent
+Cache Control : Rules for caching requests and responses
+ETag : Specific resource version
+Vary : Determines how to match future headers and decide if the previous request can be cached or to create a new one
+Content Type : Resource media type
+Content Encoding : encoding method applied to entity body
+X-Content-Type-Options : can be used to opt out MIME type snipping a response away from declared content types
+X-Frame-Options : used to avoid click jacking attacks
+X-XSS-Protection : used where there is a cross scripting attack
+Server : has server handle requests
+Alt-Svc : custom header
+Transfer Encoding : form of Encoding used to transfer the entity to user
+
+Request/ Temporary headers :
+
+User agent : information about the user agent
+Accept : Information about accepting requests
+Cache Control : Rules for caching requests
+Postman token Postman information
+Host : host information
+Accept Encoding : Information of accepting encoding
+Connection : check is connection is alive or not
